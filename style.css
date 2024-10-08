@@ -1,0 +1,43 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 40px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  width: 1920px;
+  height: 1280px;
+  
+  min-width: 1920px;
+  min-height: 1280px;
+}
+
+#extension {
+  border-radius: 10px;
+  border-style: solid;
+  padding: 15px;
+  
+  border-width: 5px;
+  border-color: dimgray;
+  
+  box-shadow: 15px 15px 0px lightgray;
+  
+  width: 400px;
+  
+  display: block;
+  align-items: center;
+  justify-content: center;
+  
+  margin-top: 25px;
+}
+
+#extension img {
+  border-radius: 15px;
+  width: 350px;
+  margin-left: 25px;
+}
