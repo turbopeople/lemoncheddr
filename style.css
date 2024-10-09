@@ -10,11 +10,8 @@ body {
   justify-content: center;
   align-items: center;
   
-  width: 1920px;
-  height: 1280px;
-  
-  min-width: 1920px;
-  min-height: 1280px;
+  width: 900px;
+  min-width: 900px;
 }
 
 #extension {
