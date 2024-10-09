@@ -7,5 +7,14 @@
     "creator": [
       {"name": "GarboMuffin", "url": "https://scratch.mit.edu/users/GarboMuffin/"}
     ]
+  },
+  {
+    "title": "SQLSnap! Fileshare",
+    "img": "images/Bitter_130/SQLSnapFileshare.png",
+    "description": "Port of the SQLSnap! Fileshare extension for cloud file share utilization.",
+    "url": "extensions/Bitter_130/SQLSnapFileshare.js",
+    "creator": [
+      {"name": "Bitter_160", "url": "https://scratch.mit.edu/users/Bitter_160/"}
+    ]
   }
 ]
