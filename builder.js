@@ -40,7 +40,7 @@
     
     const img = document.createElement('img');
     if(!currentValue["img"] || currentValue["img"] == null) {
-      img.src = "./images/unknown.png"
+      img.src = "./images/unknown-banner.png"
     } else {
       img.src = currentValue["img"];
     }
