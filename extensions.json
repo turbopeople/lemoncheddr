@@ -16,5 +16,15 @@
     "creator": [
       {"name": "Bitter_160", "url": "https://scratch.mit.edu/users/Bitter_160/"}
     ]
+  },
+  {
+    "title": "Weather API",
+    "img": "images/Lemon/WeatherAPI.png",
+    "description": "Get weather information of a place using the Weather API.",
+    "url": "extensions/Lemon/WeatherAPI.js",
+    "creator": [
+      {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"},
+      {"name": "0znzw", "url": "https://scratch.mit.edu/users/0znzw/"}
+    ]
   }
 ]
