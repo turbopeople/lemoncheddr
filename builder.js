@@ -46,11 +46,8 @@
     }
     
     const description = document.createElement('p');
+    description.classList.add('desc');
     description.textContent = currentValue["description"]
-    
-    title.style.fontWeight = "bolder";
-    
-    description.style.fontWeight = "bold";
     
     extension.appendChild(img);
     extension.appendChild(title);
@@ -72,30 +69,20 @@
       extension.appendChild(document.createElement('br'));
     })
     
-    extension.id = 'extension';
-    
+    extension.classList.add('extension');
+
+    const btnHolder = document.createElement('span');
+    btnHolder.classList.add('extension-buttons');
     const copyURLBtn = document.createElement('button');
-    
     const copyCodeBtn = document.createElement('button');
-    
-    copyURLBtn.style.backgroundColor = 'red';
-    copyURLBtn.style.color = 'white';
-    copyCodeBtn.style.backgroundColor = 'green';
-    copyCodeBtn.style.color = 'white';
-    copyCodeBtn.style.borderStyle = 'none';
-    copyURLBtn.style.borderStyle = 'none';
-    copyURLBtn.style.height = '50px';
-    copyURLBtn.style.width = '125px';
-    copyCodeBtn.style.height = '50px';
-    copyCodeBtn.style.width = '125px';
-    copyURLBtn.style.borderRadius = '10px';
-    copyCodeBtn.style.borderRadius = '10px';
+    copyURLBtn.classList.add('extension-button');
+    copyURLBtn.dataset.copy = 'url';
+    copyCodeBtn.classList.add('extension-button');
+    copyCodeBtn.dataset.copy = 'code';
     copyURLBtn.textContent = 'Copy URL';
     copyCodeBtn.textContent = 'Copy Code';
-    copyURLBtn.style.margin = '10px';
-    copyCodeBtn.style.margin = '10px';
-    copyURLBtn.style.fontWeight = 'bolder';
-    copyCodeBtn.style.fontWeight = 'bolder';
+    btnHolder.appendChild(copyURLBtn);
+    btnHolder.appendChild(copyCodeBtn);
     
     const lineBreak = document.createElement('br');
     
@@ -122,8 +109,7 @@
     
     extension.appendChild(lineBreak);
     
-    extension.appendChild(copyURLBtn);
-    extension.appendChild(copyCodeBtn);
+    extension.appendChild(btnHolder);
     
     extensions.appendChild(extension);
 });})()
