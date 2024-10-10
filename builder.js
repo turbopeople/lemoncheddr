@@ -81,7 +81,8 @@
     copyCodeBtn.dataset.copy = 'code';
     copyURLBtn.textContent = 'Copy URL';
     copyCodeBtn.textContent = 'Copy Code';
-    btnHolder.appendChild(copyURLBtn, copyCodeBtn);
+    btnHolder.appendChild(copyURLBtn);
+    btnHolder.appendChild(copyCodeBtn);
     
     const lineBreak = document.createElement('br');
     
