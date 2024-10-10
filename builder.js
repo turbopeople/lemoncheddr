@@ -72,6 +72,7 @@
     extension.classList.add('extension');
 
     const btnHolder = document.createElement('span');
+    btnHolder.classList.add('extension-buttons');
     const copyURLBtn = document.createElement('button');
     const copyCodeBtn = document.createElement('button');
     copyURLBtn.classList.add('extension-button');
