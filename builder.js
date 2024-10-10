@@ -70,7 +70,8 @@
     })
     
     extension.classList.add('extension');
-    
+
+    const btnHolder = document.createElement('span');
     const copyURLBtn = document.createElement('button');
     const copyCodeBtn = document.createElement('button');
     copyURLBtn.classList.add('extension-button');
@@ -79,6 +80,7 @@
     copyCodeBtn.dataset.copy = 'code';
     copyURLBtn.textContent = 'Copy URL';
     copyCodeBtn.textContent = 'Copy Code';
+    btnHolder.appendChild(copyURLBtn, copyCodeBtn);
     
     const lineBreak = document.createElement('br');
     
@@ -105,8 +107,7 @@
     
     extension.appendChild(lineBreak);
     
-    extension.appendChild(copyURLBtn);
-    extension.appendChild(copyCodeBtn);
+    extension.appendChild(btnHolder);
     
     extensions.appendChild(extension);
 });})()
