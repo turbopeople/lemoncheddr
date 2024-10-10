@@ -93,9 +93,11 @@
     copyURLBtn.textContent = 'Copy URL';
     copyCodeBtn.textContent = 'Copy Code';
     copyURLBtn.style.margin = '10px';
+    copyURLBtn.style.cursor = 'pointer';
     copyCodeBtn.style.margin = '10px';
     copyURLBtn.style.fontWeight = 'bolder';
     copyCodeBtn.style.fontWeight = 'bolder';
+    copyCodeBtn.style.cursor = 'pointer';
     
     const lineBreak = document.createElement('br');
     
