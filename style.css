@@ -5,43 +5,43 @@
 
 body {
   margin: 40px;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   width: 1280px;
   height: 1920px;
   min-width: 1280px;
   min-height: 1920px;
   max-width: 1280px;
-  max-height: 100000000px;
+  max-height: 10000000px;
 }
 
 .extension {
   border-radius: 10px;
   border-style: solid;
   padding: 15px;
-  
+
   border-width: 5px;
   border-color: dimgray;
-  
+
   box-shadow: 15px 15px 0px lightgray;
-  
+
   width: 400px;
-  
+
   display: block;
   align-items: center;
   justify-content: center;
-  
-  margin-top: 25px;
+
+  margin: 0px 0px 25px 25px;
 }
 
 .extension img {
   border-radius: 15px;
   width: 350px;
-  margin-left: 25px;
+  margin-top: 25px;
 }
 
 .extension h2 {
@@ -71,4 +71,9 @@ body {
 }
 .extension-button[data-copy="url"] {
   background-color: red;
+}
+
+#extensions {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
