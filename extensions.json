@@ -26,5 +26,14 @@
       {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"},
       {"name": "0znzw", "url": "https://scratch.mit.edu/users/0znzw/"}
     ]
+  },
+  {
+    "title": "Screenshot (Slow)",
+    "img": "images/Lemon/screenshot.png",
+    "description": "Screenshot the entire page in one click.",
+    "url": "extensions/Lemon/screenshot.js",
+    "creator": [
+      {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
+    ]
   }
 ]
