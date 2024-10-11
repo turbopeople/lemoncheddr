@@ -10,3 +10,7 @@
 ## Lemon/WeatherAPI.png
 - Made by [@BludIsAnLemon](https://scratch.mit.edu/users/BludIsAnLemon/)
 - Background made with [haikei](https://app.haikei.app)
+
+## Lemon/screenshot.png
+- Made by [@BludIsAnLemon](https://scratch.mit.edu/users/BludIsAnLemon/)
+- Background made with [haikei](https://app.haikei.app)
