@@ -35,5 +35,14 @@
     "creator": [
       {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
     ]
+  },
+  {
+    "title": "Auto Clicker Detection",
+    "img": "images/Lemon/autoclick_detect.png",
+    "description": "Easily detect auto clickers.",
+    "url": "extensions/Lemon/autoclick_detect.js",
+    "creator": [
+      {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
+    ]
   }
 ]
