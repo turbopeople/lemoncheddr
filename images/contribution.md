@@ -14,3 +14,7 @@
 ## Lemon/screenshot.png
 - Made by [@BludIsAnLemon](https://scratch.mit.edu/users/BludIsAnLemon/)
 - Background made with [haikei](https://app.haikei.app)
+
+## Lemon/autoclick_detect.png
+- Made by [@BludIsAnLemon](https://scratch.mit.edu/users/BludIsAnLemon/)
+- Background made with [haikei](https://app.haikei.app)
