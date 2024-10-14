@@ -44,5 +44,14 @@
     "creator": [
       {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
     ]
+  },
+  {
+    "title": "Bluetooth Request",
+    "img": null,
+    "description": "Allows you to send out bluetooth requests to nearby bluetooth devices.",
+    "url": "extensions/Lemon/bluetooth.js",
+    "creator": [
+      {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
+    ]
   }
 ]
