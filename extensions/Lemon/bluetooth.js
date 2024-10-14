@@ -20,6 +20,8 @@
       return {
         id: 'lemonBluetooth',
         name: Scratch.translate('Bluetooth Request'),
+        color1: '#FF4C4C',
+        color2: '#E03A2B',
         blocks: [
           {
             opcode: 'request',
